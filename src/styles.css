@@ -1,0 +1,42 @@
+*,
+body {
+  box-sizing: border-box;
+  background-color: #639;
+  color: #fff;
+}
+.App {
+  font-family: Tahoma, sans-serif;
+  padding: 10px 20px;
+}
+label {
+  margin-bottom: 6px;
+  display: block;
+  font-size: 14px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.input-text {
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  width: 100%;
+  word-break: break-all;
+  resize: none;
+  font-size: 14px;
+  min-height: 36px;
+  padding: 6px 12px;
+  line-height: 1.5;
+  display: block;
+  font-family: Tahoma, sans-serif;
+  resize: none;
+  overflow: hidden;
+}
+
+.input-text:focus {
+  outline: 0;
+  border-color: #8bbdf9;
+  box-shadow: 0 0 0 2px #c4defc;
+}
